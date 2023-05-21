@@ -23,7 +23,7 @@ SRC_FILES = main.c
 SRC = $(addprefix $(SRC_PATH), $(SRC_FILES))
 
 all:
-	$(CC) $(CFLAGS) $(SRC) -I . -o $(NAME)
+	$(CC) $(CFLAGS) $(SRC) -I ./includes/ -o $(NAME)
 
 clean:
 	rm-rf $(NAME) $(OBJ)

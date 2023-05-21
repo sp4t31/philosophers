@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./philo.h";
+#include "../includes/philo.h";
 
 /**
  * Converts char into int

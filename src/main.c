@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../philo.h";
+#include "../includes/philo.h";
 
 void  save_args(t_rules *rules, int argc, char**argv);
 
