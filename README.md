@@ -21,7 +21,8 @@ For the full project brief, see the subject.pdf file.
 ./philo [nbr_of_philosophers] [time_to_die] [time_to_eat] [time_to_sleep] [optional - nbr_meals]
 ```
 
--`time_to_die` (in milliseconds): If a philosopher didn’t start eating `time_to_die` milliseconds since the beginning of their last meal or the beginning of the simulation, they die.
+- `nbr_of_philosophers`: The number of philosophers and also the number of forks.
+- `time_to_die` (in milliseconds): If a philosopher didn’t start eating `time_to_die` milliseconds since the beginning of their last meal or the beginning of the simulation, they die.
 - `time_to_eat` (in milliseconds): The time it takes for a philosopher to eat. During that time, they will need to hold two forks.
 - `time_to_sleep` (in milliseconds): The time a philosopher will spend sleeping.
 - `nbr_meals` (optional argument): If all philosophers have eaten at least `nbr_meals` times, the simulation stops. If not specified, the simulation stops when a philosopher dies.
